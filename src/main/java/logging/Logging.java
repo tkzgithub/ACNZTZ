@@ -1,3 +1,5 @@
+
+
 package logging;
 
 import org.apache.log4j.BasicConfigurator;
