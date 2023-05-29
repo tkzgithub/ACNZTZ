@@ -42,3 +42,6 @@ They are three acceptance criterion to be meet and this will be shown by a green
 
 # Reports
 Reporting has been excluded due to installation instructions needed to be followed, preference was Allure Reports
+
+# Screenshot
+![img.png](img.png)
