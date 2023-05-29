@@ -1,4 +1,8 @@
+/*
+The logger has been created to log all issues encounted during execution
+Need to trace if json serialization and deserialization
 
+ */
 
 package logging;
 

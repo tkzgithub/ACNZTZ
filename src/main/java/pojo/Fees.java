@@ -1,12 +1,20 @@
 package pojo;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import java.util.ArrayList;
+
+/*
+ *Project: Assurity Consulting Practical Assessment
+ * Author: Tom Zimba
+ * Purpose: This class is for defining all Fees variables, getters and setters
+ * @version 1.0.0
+ * @since 27 May 2023
+
+ */
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Fees {
-
+//declaring Fees private variables
     private float Bundle;
     private float EndDate;
     private float Feature;
@@ -15,11 +23,14 @@ public class Fees {
     private float Reserve;
     private float Subtitle;
     private float TenDays;
+
+    //ListingFeeTiers is returning MinimumTierPrice and
+    // FixedFee, use ArrayList to reduce maintenance time
     ArrayList< Object > listingFeeTiers = new ArrayList< Object >();
     private float SecondCategory;
 
 
-    // Getter Methods
+    // Getter Methods for Fees
 
     public float getBundle() {
         return Bundle;

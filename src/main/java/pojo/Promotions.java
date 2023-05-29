@@ -3,9 +3,20 @@ package pojo;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.google.gson.annotations.SerializedName;
 
+/*
+ *Project: Assurity Consulting Practical Assessment
+ * Author: Tom Zimba
+ * Purpose: This class is for getting the response from the API after
+ * querying with the GET method
+ * @version 1.0.0
+ * @since 27 May 2023
+
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Promotions {
-
+/*
+Serialize the fields in the Promotions object
+ */
     @SerializedName("Id")
     int Id;
 
@@ -21,7 +32,10 @@ public class Promotions {
     @SerializedName("MinimumPhotoCount")
     int MinimumPhotoCount;
 
-
+/*
+*Creating getter and corresponding setter method
+*so that none will be missed
+ */
     public void setId(int Id) {
         this.Id = Id;
     }
