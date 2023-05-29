@@ -13,7 +13,6 @@ import static io.restassured.RestAssured.given;
  * querying with the GET method
  * @version 1.0.0
  * @since 27 May 2023
-
  */
 
 public class Service {

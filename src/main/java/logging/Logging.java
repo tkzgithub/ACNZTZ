@@ -1,8 +1,12 @@
 /*
-The logger has been created to log all issues encounted during execution
-Need to trace if json serialization and deserialization
+ *Project: Assurity Consulting Practical Assessment
+ * Author: Tom Zimba
+ * Purpose: The logger has been created to log all issues encounted during execution
+ * Need to trace if json serialization and deserialization
+ * @version 1.0.0
+ * @since 27 May 2023
 
- */
+  */
 
 package logging;
 

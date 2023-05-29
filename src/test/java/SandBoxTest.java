@@ -11,8 +11,7 @@ import service.Service;
  * Purpose: This class is where we are testing the acceptance criteria requested
  * querying with the GET method
  * @version 1.0.0
- * @since 27 May 2023
-
+ * @since 28 May 2023
  */
 
 public class SandBoxTest {
@@ -25,19 +24,21 @@ public class SandBoxTest {
         sandBoxService = new Service();
     }
 
-    @Test
+    @Test//verifying if Name = "Carbon credits"
     public void validate_name() {
-        Assert.assertEquals(sandBoxService.sendAGetRequestToSandboxAPI().getName(), "Carbon credits");
+
+              Assert.assertEquals(sandBoxService.sendAGetRequestToSandboxAPI().getName(), "Carbon credits");
     }
 
-    @Test
+    @Test//verifying if CanRelist = true
     public void validate_canRelist() {
 
         Assert.assertEquals(sandBoxService.sendAGetRequestToSandboxAPI().getCanRelist(), true);
 
     }
 
-    @Test
+    @Test//The Promotions element with
+    // Name = "Gallery" has a Description that contains the text "Good position in category"
     public void validate_Promotions() {
 
         for (Promotions promotion:sandBoxService.sendAGetRequestToSandboxAPI().getPromotions()) {

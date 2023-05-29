@@ -9,7 +9,7 @@ import com.google.gson.annotations.SerializedName;
  * Purpose: This class is for getting the response from the API after
  * querying with the GET method
  * @version 1.0.0
- * @since 27 May 2023
+ * @since 29 May 2023
 
  */
 @JsonIgnoreProperties(ignoreUnknown = true)

@@ -3,7 +3,15 @@ package pojo;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
+/*
+ *Project: Assurity Consulting Practical Assessment
+ * Author: Tom Zimba
+ * Purpose: This class is for managing the getters and setters for all the other fields
+ * Every field has a getter and the corresponding setter
+ * @version 1.0.0
+ * @since 28 May 2023
 
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Sandbox {
 
