@@ -1,3 +1,9 @@
+package logging;
+
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
 /*
  *Project: Assurity Consulting Practical Assessment
  * Author: Tom Zimba
@@ -6,13 +12,7 @@
  * @version 1.0.0
  * @since 27 May 2023
 
-  */
-
-package logging;
-
-import org.apache.log4j.BasicConfigurator;
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
+ */
 
 public class Logging {
 
