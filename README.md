@@ -1,4 +1,4 @@
-# Tom Z Assurity Consulting Assessment
+# ACNZTZ
 
 **Used Tools and Frameworks**
 1. Intellij IDE
